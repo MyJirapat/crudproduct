@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CRUD Product</title> 
+    <link rel = "stylesheet" href="styless.css">
+
+
+
+
+</head>
+<body>
+
+    <div class='container'>
+        <div class="header">
+            <!---img src= "" alt=""---->
+            <h1> Create Delete Product</h1>
+            <h4> # </h4>
+        </div>
+
+
+        <h2> Write something here </h2>
+        <h4> </h4>
+        <form id= "reviewForm">
+            <input type= "hidden" id= 'hiddenId' />
+            <input type= "text" id= 'fullName'/>
+            <input type= "text" id= 'fullName'/>
+            <input type= "time" id= 'Arival'/>
+            <input type= "time" id= 'Arival'/>
+            
+
+            <br/>
+            <textarea id= 'message'></textarea>
+            <br/>
+
+            <button type="submit"> Add/update</button>
+
+        </form>
+
+    </br>
+
+    <h4> Product Table</h4>
+    <ul id='reviews'></ul>
+
+    
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src= "index.js"></script>
+
+    
+</body>
+</html>
